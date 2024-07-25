@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<CardList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="cardSchema.xsd" >
+	<DeckInfo name='Arcane Entropy'>
+		<description>Description of arcane deck.</description>
+	</DeckInfo>
+	<Card name='Cube'>
+	   <cardText>Deal 2 damage. Add a /Cube/ to the Pattern.</cardText>
+	   <flavorText>My cubes!</flavorText>
+	   <cost>0</cost>
+	   <types>
+			<type>Entropy</type>
+			<type>Cube</type>
+	   </types>
+	   <id>000</id>
+	</Card>
+	<Card name='Prism'>
+	   <cardText>Draw a card. Add a /Prism/ to the Pattern.</cardText>
+	   <flavorText>Dark Side of the Moon is not the best Pink Floyd album.</flavorText>
+	   <cost>0</cost>
+	   <types>
+			<type>Entropy</type>
+			<type>Prism</type>
+	   </types>
+	   <id>001</id>
+	</Card>
+	<Card name='Sphere'>
+	   <cardText>Gain a mana. Add a /Sphere/ to the Pattern.</cardText>
+	   <flavorText>It's spherical!</flavorText>
+	   <cost>0</cost>
+	   <types>
+			<type>Entropy</type>
+			<type>Sphere</type>
+	   </types>
+	   <id>002</id>
+	</Card>
+	<Card name='Stack'>
+	   <cardText>/Consume C/: Gain Stack.</cardText>
+	   <flavorText>pog</flavorText>
+	   <cost>1</cost>
+	   <types>
+			<type>Entropy</type>
+			<type>Pattern</type>
+			<type>Stack</type>
+	   </types>
+	   <id>003</id>
+	</Card>
+	<Card name='Setup'>
+	   <cardText>/Consume P/: Next turn, deal 5 damage.</cardText>
+	   <flavorText>pog</flavorText>
+	   <cost>1</cost>
+	   <types>
+			<type>Entropy</type>
+			<type>Pattern</type>
+			<type>Next Turn</type>
+	   </types>
+	   <id>004</id>
+	</Card>
+	<Card name='Confuse Ray'>
+	   <cardText>/Consume S/: /Confuse/ an enemy.</cardText>
+	   <flavorText>pog</flavorText>
+	   <cost>1</cost>
+	   <types>
+			<type>Entropy</type>
+			<type>Pattern</type>
+			<type>Confuse</type>
+	   </types>
+	   <id>005</id>
+	</Card>
+	<Card name='Rigid Bolt'>
+	   <cardText>/Consume C + P/: Team Attack 7. Gain Stack next turn.</cardText>
+	   <flavorText>pog</flavorText>
+	   <cost>1</cost>
+	   <types>
+			<type>Entropy</type>
+			<type>Pattern</type>
+			<type>Team Attack</type>
+			<type>Next Turn</type>
+			<type>Stack</type>
+	   </types>
+	   <id>006</id>
+	</Card>
+	<Card name='Spiral Bolt'>
+	   <cardText>/Consume C + S/: Team Attack 7. /Timeline/: All damage is doubled.</cardText>
+	   <flavorText>pog</flavorText>
+	   <cost>1</cost>
+	   <types>
+			<type>Entropy</type>
+			<type>Pattern</type>
+			<type>Team Attack</type>
+	   </types>
+	   <id>007</id>
+	</Card>
+	<Card name='Fluidity'>
+	   <cardText>/Consume P + S/: Next turn, draw 2 cards and gain 2 mana.</cardText>
+	   <flavorText>pog</flavorText>
+	   <cost>1</cost>
+	   <types>
+			<type>Entropy</type>
+			<type>Pattern</type>
+			<type>Next Turn</type>
+			<type>Draw</type>
+			<type>Mana</type>
+	   </types>
+	   <id>008</id>
+	</Card>
+	<Card name='Ensue Chaos'>
+	   <cardText>/Disperse/: 5 damage.</cardText>
+	   <flavorText>Kerblam.</flavorText>
+	   <cost>2</cost>
+	   <types>
+			<type>Entropy</type>
+			<type>Pattern</type>
+			<type>Disperse</type>
+	   </types>
+	   <id>009</id>
+	</Card>
+</CardList>
